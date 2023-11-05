@@ -1,0 +1,86 @@
+body,h2{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Full{
+    background-image: url(images/pexels-huỳnh-đạt-2313037.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    color:white;
+}
+header a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+header{
+    display:flex;
+    padding:2em;
+}
+#logo{
+    font-family: cursive;
+    flex:3;
+    font-size: 2.5em;
+}
+nav{
+    flex:2;
+    display: flex;
+}
+nav a{
+    flex: 1;
+}
+#logo:hover{
+    color:#706233;
+}
+nav a:hover{
+    color:#706233;
+}
+
+.maincontent{
+    display: flex;
+    flex-direction:column;
+    height: 35vh;
+    justify-content: center;
+    padding: 3em;
+}
+.tag-1{
+    
+    color:beige;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.tag-2{
+    font-size:2em;
+    color:cornsilk;
+    justify-content: center;
+}
+.maincontent div{
+    margin-top: .75em;
+}
+.maincontent button{
+    width:20vw;
+    margin-top: 2em;
+    border-radius:10px;
+    padding:10px;
+    background-color:whitesmoke;
+    color:#4F4A45;
+    font-weight: bold;
+}
+button:hover{
+    background-color: crimson;
+}
+.location{
+   
+    color: antiquewhite; 
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    
+}
+.mail{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.mail:hover{
+    color: aquamarine;
+    text-decoration: underline;
+}
