@@ -84,3 +84,17 @@ button:hover{
     color: aquamarine;
     text-decoration: underline;
 }
+@media screen and (max-width:600px){
+    .tag-1{
+        font-size: 1.5em;
+    }
+    .tag-2{
+        font-size: 1em;
+    }
+    .maincontent button{
+        width: 10vw;
+    }
+    .Contact{
+        font-size:10px;
+    }
+}
